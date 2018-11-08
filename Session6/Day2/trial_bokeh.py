@@ -29,7 +29,7 @@ print("The rh (pc) for the dwarf is:", rh_pc)
 print("The group velocity (km/s) for the dwarf is:", groupvel)
 
 
-t_name = "/Users/ioanaciuca/Desktop/make_dwarfs/final_datafiles/sourceid%s_dwarf_d%s_M%s_Vgroup%s.fits "% (int(idsource), int(dist_kpc), int(mass), int(groupvel))
+t_name = "/Users/ioanaciuca/Desktop/GDR2_and_Fermi/make_dwarfs/final_datafiles/sourceid%s_dwarf_d%s_M%s_Vgroup%s.fits "% (int(idsource), int(dist_kpc), int(mass), int(groupvel))
 
 data = Table.read(t_name, format = "fits")
 
